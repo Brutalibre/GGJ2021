@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Tourne
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Tourne","summary":"Sa
+      tourne","pan":{"x":-28.50304,"y":-12.36819},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-322.0,"y":-93.0},"guid":"1b743432-8a63-45bc-b588-445c91f2d1f9","$version":"A","$type":"Bolt.Update","$id":"9"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-51.0,"y":-96.0},"guid":"8c4d3da8-4478-4333-814e-1b65ef62fc89","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"RotationValue","$type":"System.String"},"object":null},"position":{"x":-317.0,"y":4.0},"guid":"824a7997-5e03-4278-a846-126e9fbe9798","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"723a82a8-2e3f-4fa3-a521-59f31ffe40f2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%eulers","guid":"55b5132f-4660-4671-81df-3ae5f5720d1c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
