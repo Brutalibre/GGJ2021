@@ -28,6 +28,8 @@ public class Grabbable : MonoBehaviour
         grabbedBy = hand;
         rb.useGravity = false;
         gameObject.layer = 7; // IgnoreArm layer
+
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
     }
 
     public void Ungrab() {
@@ -35,5 +37,7 @@ public class Grabbable : MonoBehaviour
         grabbedBy = null;
         rb.useGravity = true;
         gameObject.layer = 7; // Default layer
+
+        rb.constraints = RigidbodyConstraints.None;
     }
 }
