@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MiddleAvatar
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Bras
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Annulaire1
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Annulaire1/Annulaire2
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Annulaire1/Annulaire2/Annulaire3
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Annulaire1/Annulaire2/Annulaire3/Annulaire3_end
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Auriculaire1
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Auriculaire1/Auriculaire2
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Auriculaire1/Auriculaire2/Auriculaire3
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Auriculaire1/Auriculaire2/Auriculaire3/Auriculaire3_end
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Index1
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Index1/Index2
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Index1/Index2/Index3
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Index1/Index2/Index3/Index3_end
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Majeur1
+    m_Weight: 1
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Majeur1/Majeur2
+    m_Weight: 1
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Majeur1/Majeur2/Majeur3
+    m_Weight: 1
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Majeur1/Majeur2/Majeur3/Majeur3_end
+    m_Weight: 1
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Pouce1
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Pouce1/Pouce2
+    m_Weight: 0
+  - m_Path: Armature/Bras/ABras/AABras/AAABras/AAAABras/Main/Pouce1/Pouce2/Pouce2_end
+    m_Weight: 0
+  - m_Path: Armature/HandIK
+    m_Weight: 0
+  - m_Path: Armature/HandIK/HandIK_end
+    m_Weight: 0
+  - m_Path: Cylinder
+    m_Weight: 0
