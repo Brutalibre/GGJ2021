@@ -519,6 +519,8 @@ GameObject:
   - component: {fileID: 1215942024}
   - component: {fileID: 1215942023}
   - component: {fileID: 1215942022}
+  - component: {fileID: 1215942028}
+  - component: {fileID: 1215942027}
   m_Layer: 0
   m_Name: Object 1
   m_TagString: Untagged
@@ -618,6 +620,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1215942027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215942021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"title":"IsGrabbed","summary":null,"pan":{"x":-20.4384,"y":-116.9748},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"abcc02a8-db9e-4d33-93ad-13a605f20bfe","$version":"A","$type":"Bolt.OnEnterState","$id":"14"},{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-59.0},"guid":"4f0bf3a3-ce36-44ea-aa24-bd7593eee09d","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":145.0},"guid":"d3d9ab67-2b78-44f1-ae48-0ba49de2ba8e","$version":"A","$type":"Bolt.OnExitState"},{"kind":"Object","defaultValues":{"name":{"$content":"IsGrabbed","$type":"System.String"},"object":null},"position":{"x":197.0,"y":-221.0},"guid":"d3ec81c4-0a26-4f6b-a7e9-b1485029557f","$version":"A","$type":"Bolt.SetVariable","$id":"20"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":37.0,"y":-62.0},"guid":"d416bc8f-b667-4dde-9443-b5077fb2d59a","$version":"A","$type":"Bolt.Literal","$id":"22"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"20"},"destinationKey":"assign","guid":"80e0f820-1d15-41e1-9036-a3a34dbaf02b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"output","destinationUnit":{"$ref":"20"},"destinationKey":"input","guid":"3f2533e0-d9d0-4a02-943c-b582d271505e","$type":"Bolt.ValueConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-221.0,"y":-196.0},"width":170.0,"guid":"287fb680-4d19-4c91-97f0-ae7014cd8874","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &1215942028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215942021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"IsGrabbed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1459675057
 GameObject:
   m_ObjectHideFlags: 0
