@@ -5,7 +5,7 @@ using UnityEngine;
 public class Grabbable : MonoBehaviour
 {
     private bool isGrabbed = false;
-    private Transform grabbedBy = null;
+    private HandGrab grabbedBy = null;
     private Rigidbody rb;
 
     // Start is called before the first frame update
@@ -19,13 +19,13 @@ public class Grabbable : MonoBehaviour
     {
         if(isGrabbed && grabbedBy != null) {
             // transform.position = Vector3.Lerp(transform.position, grabbedBy.position, Time.deltaTime);
-            transform.position = grabbedBy.position;
+            transform.position = grabbedBy.GrabbedObjectDestination.position;
         }
     }
 
-    public void SetGrabbedBy(Transform handTransform) {
+    public void SetGrabbedBy(HandGrab hand) {
         isGrabbed = true;
-        grabbedBy = handTransform;
+        grabbedBy = hand;
         rb.useGravity = false;
         gameObject.layer = 7; // IgnoreArm layer
     }

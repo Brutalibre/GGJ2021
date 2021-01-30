@@ -7,22 +7,13 @@ public class HandGrab : MonoBehaviour
     public Collider handTrigger;
     private Grabbable grabbed = null;
     private Collider inRange = null;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform GrabbedObjectDestination;
 
     private void Update() {
         if (Input.GetKeyDown(KeyCode.A)) {
-
-            Debug.Log("Button was pressed.");
-
             // Is the hand holding something ?
             // Let go of the grabbed object.
             if (grabbed != null) {
-                Debug.Log("I let go of the grabbed object.");
                 grabbed.Ungrab();
                 grabbed = null;
             }
@@ -30,14 +21,12 @@ public class HandGrab : MonoBehaviour
             else {
                 // Grab what is in range
                 if (inRange != null) {
-                    Debug.Log("I grabbed something !.");
-
                     grabbed = inRange.GetComponent<Grabbable>();
-                    grabbed.SetGrabbedBy(transform);
+                    grabbed.SetGrabbedBy(this);
                 }
                 // Close/open the hand.
                 else {
-                    Debug.Log("Nothing to grab here.");
+
                 }
             }
         }
