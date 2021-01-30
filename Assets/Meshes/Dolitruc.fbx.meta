@@ -1,26 +1,8 @@
 fileFormatVersion: 2
-guid: 294902f0f938073449085df31161047b
+guid: 7c40178706c40ab4589ca085a537afad
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: -623603649343465320
-    second: Scene
-  - first:
-      74: -1158726129008117130
-    second: Index
-  - first:
-      74: 978219045124833374
-    second: Thumbs
-  - first:
-      74: 2607132582594807007
-    second: Middle
-  - first:
-      74: -263168754230446833
-    second: Ring
-  - first:
-      74: -2329093931597368791
-    second: Pinkie
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
