@@ -17,9 +17,6 @@ public class ArmController : MonoBehaviour {
             Vector3 direction = (destination - body.transform.position) * sensitivity;
 
             body.velocity = direction;
-            /*body.angularVelocity = new Vector3 ((-direction.x) / body.inertiaTensor.x,
-                                                (-direction.y) / body.inertiaTensor.y,
-                                                (-direction.z) / body.inertiaTensor.z);*/
         }
     }
 }
