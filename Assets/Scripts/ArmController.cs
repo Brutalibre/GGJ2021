@@ -6,14 +6,20 @@ public class ArmController : MonoBehaviour {
     public ArticulationBody body;
     public float sensitivity = 10;
     public Camera main;
-    public BoxCollider plane;
+    // public BoxCollider planeold;
     public float planeDistance;
     public float scalingDest = 4;
+    Plane plane;
+
+    private void Start() {
+        plane = new Plane(main.transform.position - new Vector3(0, planeDistance-1, 0), Vector3.up);
+    }
 
     void FixedUpdate() {
         Ray ray = main.ScreenPointToRay(Input.mousePosition);
-        if (plane.Raycast(ray, out RaycastHit pointHit, planeDistance)) {
-            Vector3 destination = new Vector3(pointHit.point.x * scalingDest, body.transform.position.y, pointHit.point.z * scalingDest);
+        if (plane.Raycast(ray, out float distance)) {
+            Vector3 pointHit = ray.GetPoint(distance);
+            Vector3 destination = new Vector3(pointHit.x * scalingDest, body.transform.position.y, pointHit.z * scalingDest);
             Vector3 direction = (destination - body.transform.position) * sensitivity;
 
             body.velocity = direction;
