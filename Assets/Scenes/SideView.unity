@@ -390,7 +390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.08
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -398,7 +398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.0513916
+      value: 4.65
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2699,6 +2699,10 @@ PrefabInstance:
     - target: {fileID: 3469026301551648634, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925241280054726990, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"SecondsToWait","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"NextSceneName","value":{"$content":"BottumUpView","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4631556287273492332, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
       propertyPath: m_Name
