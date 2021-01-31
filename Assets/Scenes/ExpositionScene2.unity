@@ -341,8 +341,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 160}
-  m_SizeDelta: {x: 2553, y: 1594}
+  m_AnchoredPosition: {x: -652, y: 302.05}
+  m_SizeDelta: {x: 368.946, y: 604.105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846828350
 MonoBehaviour:
@@ -364,9 +364,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 999d9917ca3d68848bab1c913bfea270, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 97053a8619f086f4587751db0c4ba335, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"SecondsToWait","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"NextSceneName","value":{"$content":"Menu","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"SecondsToWait","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"NextSceneName","value":{"$content":"TopDownView","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &986801473
 GameObject:
@@ -716,14 +716,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c63f5f2d5c27a4b0aa49e3e1aa12ba90, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
