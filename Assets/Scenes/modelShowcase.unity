@@ -465,7 +465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09ea9e37e642af340b42f5a859066d08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.066
+      value: 0.0102
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09ea9e37e642af340b42f5a859066d08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1287,6 +1287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1803331414}
   musicIntro: {fileID: 8300000, guid: b40bdd1437089e94facaefcdc1882ae1, type: 3}
+  launchGame: 0
 --- !u!1 &2138677391
 GameObject:
   m_ObjectHideFlags: 0
