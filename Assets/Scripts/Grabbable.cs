@@ -8,10 +8,18 @@ public class Grabbable : MonoBehaviour
     private HandGrab grabbedBy = null;
     private Rigidbody rb;
 
+    private AudioSource audioSource;
+    public AudioClip bounce;
+    
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
+        if(audioSource) {
+            audioSource.playOnAwake = false;
+            audioSource.clip = bounce;
+        }
     }
 
     // Update is called once per frame
@@ -20,6 +28,13 @@ public class Grabbable : MonoBehaviour
         if(isGrabbed && grabbedBy != null) {
             // transform.position = Vector3.Lerp(transform.position, grabbedBy.position, Time.deltaTime);
             transform.position = grabbedBy.GrabbedObjectDestination.position;
+        }
+    }
+
+    void OnCollisionEnter() {
+        if (audioSource) {
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            audioSource.Play();
         }
     }
 
