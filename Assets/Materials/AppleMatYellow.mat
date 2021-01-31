@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AppleMat
+  m_Name: AppleMatYellow
   m_Shader: {fileID: -6465566751694194690, guid: 8de1a024c8ea37c479dba4fdcd511c6b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -37,6 +37,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_3f676fdc50b641daafba535ef4e79c17: {r: 0.9811321, g: 0.6779259, b: 0.37486652, a: 1}
-    - Color_b375fef157c24ce390dd61d92b41dcad: {r: 0.8867924, g: 0.06932772, b: 0, a: 1}
+    - Color_3f676fdc50b641daafba535ef4e79c17: {r: 0.4245283, g: 0.23449393, b: 0.082102165, a: 1}
+    - Color_b375fef157c24ce390dd61d92b41dcad: {r: 0.79925096, g: 0.8584906, b: 0.125534, a: 1}
   m_BuildTextureStacks: []
