@@ -123,6 +123,76 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &21109540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 12459843337454991, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
+  m_PrefabInstance: {fileID: 233684762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &21109541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21109540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"PweppesRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"697a3fa0-7a2e-4e4d-917b-b0e4b2573018","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"703ad7c6-5e65-4d2d-ae73-ced35b105e30","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":0.0,"y":1.0,"z":3.0,"$type":"UnityEngine.Vector3"}},"position":{"x":200.0,"y":36.0},"guid":"7a5a6b46-9ebd-4377-8c8e-ae71c0f3d23c","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"0e6173c0-2b15-4b94-875b-25ff0f16fc44","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &21109542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21109540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!1 &40391384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7268234456322099516, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
+  m_PrefabInstance: {fileID: 1832521459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40391385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40391384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"AppleRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"fb6d5662-cb3d-4caa-ad00-a2c46103ed1a","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"4b6068c8-73a9-4539-8c96-8ad9ce2604b7","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":2.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":110.0,"y":54.0},"guid":"8148855c-ce1a-4ceb-9938-14386aabf7b4","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"a5059140-9647-4379-8fc8-ec7e79ba92c3","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &40391386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40391384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &64556680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -217,7 +287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.4
+      value: 15.03
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalPosition.y
@@ -229,7 +299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.29829118
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalRotation.x
@@ -237,11 +307,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.954475
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -249,7 +319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 214.71
       objectReference: {fileID: 0}
     - target: {fileID: 5746156811747230929, guid: 3931a59895596214f8a49958145bdc94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -414,19 +484,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96031797
+      value: 0.96060956
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2789076
+      value: 0.27790153
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -434,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 32.39
+      value: 32.27
       objectReference: {fileID: 0}
     - target: {fileID: 12459843337454976, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -446,6 +516,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a79270e3198b6e4a943fe01c1f0dcae, type: 3}
+--- !u!1 &359599043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8197330699037304096, guid: ffc6d62f83a988e47bfce4d5496da05a, type: 3}
+  m_PrefabInstance: {fileID: 1903216798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &359599044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359599043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"EraserRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"da1068e8-9b87-4c63-b261-8335e49346a2","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"929842eb-9e2d-4c36-89f0-ac914138566e","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":4.0,"y":5.0,"z":5.0,"$type":"UnityEngine.Vector3"}},"position":{"x":54.0,"y":52.0},"guid":"163ed2d9-57c8-4e55-a658-91444e884b96","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"2506512f-67d4-4a5b-879c-6595b24c55ed","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &359599045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359599043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &472381681
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +617,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &645170720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 36326923416276705, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
+  m_PrefabInstance: {fileID: 1454321369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &645170728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645170720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"GlassesRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"e2e44745-a2eb-44d9-8ba8-812095883bc8","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"7a74c31f-133a-4022-8956-871eb818ee94","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":2.0,"y":4.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":90.0,"y":-7.0},"guid":"a5037fbf-6e9d-437b-9c43-9ecdd91da6a7","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"a2dd417c-653a-4c23-9832-79cb5ecbd405","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &645170729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645170720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &846828348
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 160}
+  m_AnchoredPosition: {x: 0, y: 186}
   m_SizeDelta: {x: 2553, y: 1594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846828350
@@ -619,6 +759,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"SecondsToWait","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"NextSceneName","value":{"$content":"Menu","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!1 &852804801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5746156811747230942, guid: 3931a59895596214f8a49958145bdc94, type: 3}
+  m_PrefabInstance: {fileID: 69140699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &852804802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852804801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"RotationKurbo","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"718d1572-3ff9-4acc-8d4d-287d2561b532","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"dfa03adc-950b-42b5-8783-6d65cdf41127","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":0.0,"y":3.0,"z":2.0,"$type":"UnityEngine.Vector3"}},"position":{"x":90.0,"y":39.0},"guid":"b28eca76-c876-4f74-9906-1c01e4161194","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"ee9b311c-6d8a-454c-a2a5-386c9cb55283","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &852804803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852804801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &986801473
 GameObject:
@@ -813,7 +988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9759358
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -825,7 +1000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.21805806
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -837,10 +1012,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913255381119836223, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -25.19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
+--- !u!1 &1096202699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5554089713172349770, guid: 7d50fa0a148e156488c0fa82bb9ceec3, type: 3}
+  m_PrefabInstance: {fileID: 64556680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1096202700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096202699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"UrchinRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"5a242d30-1b23-4da0-b263-1578b219200e","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"3ab01765-047f-4e6a-820f-29d21f90a93e","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3","UnityEngine.Space"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%relativeTo":{"$content":"World","$type":"UnityEngine.Space"}},"position":{"x":76.0,"y":48.0},"guid":"dee294af-21c9-41fb-bad4-3ffe503db89e","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"4ae6b2c6-52e1-4330-a497-77fe13a12421","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &1096202701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096202699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!1 &1100777342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2571024625328543398, guid: 16b756479c18c9b4c92340b9fda1feb9, type: 3}
+  m_PrefabInstance: {fileID: 1386427426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1100777343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100777342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"DoliRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"ef907a3d-5278-41d5-95de-8f1e481b0a71","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"ae5d595a-930d-4708-803a-2da2c29acc60","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":-4.0,"y":-3.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":88.0,"y":33.0},"guid":"734e30f6-ce88-434f-8e3f-331496535263","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"d9d195dc-b640-4402-bfca-cf4824ea49a3","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &1100777344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100777342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1254550948
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,8 +1185,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1919.9998, y: 1596}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1386427426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -971,11 +1216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2571024625328543401, guid: 16b756479c18c9b4c92340b9fda1feb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2571024625328543401, guid: 16b756479c18c9b4c92340b9fda1feb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35
+      value: 72.9
       objectReference: {fileID: 0}
     - target: {fileID: 2571024625328543401, guid: 16b756479c18c9b4c92340b9fda1feb9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1048,11 +1293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717218956774010946, guid: 4c066c41cac2a694f863951b5400bd7a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99996984
       objectReference: {fileID: 0}
     - target: {fileID: 5717218956774010946, guid: 4c066c41cac2a694f863951b5400bd7a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.0077666356
       objectReference: {fileID: 0}
     - target: {fileID: 5717218956774010946, guid: 4c066c41cac2a694f863951b5400bd7a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1064,7 +1309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717218956774010946, guid: 4c066c41cac2a694f863951b5400bd7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.89
       objectReference: {fileID: 0}
     - target: {fileID: 5717218956774010946, guid: 4c066c41cac2a694f863951b5400bd7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1121,27 +1366,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.25561705
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.41194695
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.46114537
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.743172
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 116.36
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 36326923416276718, guid: 63d1a45504c4d144da9510df1e787a62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1243,7 +1488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1251,31 +1496,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -347.1453
+      value: -347
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9798562
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.19953209
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.008123462
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.0016542138
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 23.02
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 7268234456322099507, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1287,6 +1532,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e03a8c5386d0fbb42bf0a3826e63f338, type: 3}
+--- !u!1 &1853095642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5913255381119836208, guid: 4c889609da33e40498068ba312e70c3d, type: 3}
+  m_PrefabInstance: {fileID: 1085962222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1853095643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853095642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"LighterRotation","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"ca0cf6da-b986-4810-bcf6-f8e95a4cae21","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"9bf52fdc-7fc5-441a-90c0-f7a6a8b8cc9a","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":2.0,"y":6.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":82.0,"y":12.0},"guid":"2bfe0c38-22ed-4487-942e-e9cf06e21ca6","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"fe0a743f-7520-4198-a50d-644e8c262036","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &1853095644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853095642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &1903216798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1356,6 +1636,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffc6d62f83a988e47bfce4d5496da05a, type: 3}
+--- !u!1 &1930892874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5717218956774010957, guid: 4c066c41cac2a694f863951b5400bd7a, type: 3}
+  m_PrefabInstance: {fileID: 1408169734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1930892875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930892874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"MugRotate","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"fd16a0e4-b4ae-4593-a73c-b77d6711798e","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"908eea2a-fd62-49fa-aa10-b68d6dbb66ec","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":0.0,"y":4.0,"z":6.0,"$type":"UnityEngine.Vector3"}},"position":{"x":100.0,"y":41.0},"guid":"056c43cc-0ac8-4573-a58c-d79fea03272a","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"af8a5b41-3fea-4770-8622-e2fc5bd5ad46","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &1930892876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930892874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &2077880397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,3 +1746,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077880397}
   m_CullTransparentMesh: 1
+--- !u!1 &2103203850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2807240336600019715, guid: 3cf7c4efcfa2d5245ac937cfd17d519a, type: 3}
+  m_PrefabInstance: {fileID: 1657329090}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2103203851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103203850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"HydrogelRotate","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"509eed22-558f-4b90-a026-9649132e9636","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"a93fdbb3-4210-412e-824a-0d4817d8367f","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":3.0,"y":0.0,"z":-5.0,"$type":"UnityEngine.Vector3"}},"position":{"x":86.0,"y":46.0},"guid":"d8bdaf14-84a4-4072-8b5d-d42f2079a152","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"cccabea8-1140-4c32-bac0-d13c65ee5d88","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &2103203852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103203850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
