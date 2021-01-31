@@ -640,6 +640,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3904035497614308984, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2620111140046822080, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -619079157916434327, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
       propertyPath: m_Name
       value: armFbx Variant
@@ -651,6 +663,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679502215689383243, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789992961208558233, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216784787535635060, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5074512353664290214, guid: 5284c4b392d208f4a92dce178ead3f8b, type: 3}
       propertyPath: m_Materials.Array.data[0]
