@@ -34,9 +34,9 @@ public class HandGrab : MonoBehaviour
                                 else { fingersClosed[1] = false; tIndex -= Time.deltaTime * 4; }
         if (Input.GetKey(KeyCode.E)) { fingersClosed[2] = true;  tMiddle += Time.deltaTime * 2; }
                                 else { fingersClosed[2] = false; tMiddle -= Time.deltaTime * 4; }
-        if (Input.GetKey(KeyCode.Z)) { fingersClosed[3] = true;  tRing += Time.deltaTime * 2; }
+        if (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W)) { fingersClosed[3] = true;  tRing += Time.deltaTime * 2; }
                                 else { fingersClosed[3] = false; tRing -= Time.deltaTime * 4; }
-        if (Input.GetKey(KeyCode.A)) { fingersClosed[4] = true;  tPinkie += Time.deltaTime * 2; }
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.Q)) { fingersClosed[4] = true;  tPinkie += Time.deltaTime * 2; }
                                 else { fingersClosed[4] = false; tPinkie -= Time.deltaTime * 4; }
         tThumbs = Mathf.Clamp(tThumbs, 0, 1);
         tIndex = Mathf.Clamp(tIndex, 0, 1);
