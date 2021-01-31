@@ -12,7 +12,7 @@ public class ArmController : MonoBehaviour {
     Plane plane;
 
     private void Start() {
-        plane = new Plane(main.transform.position - new Vector3(0, planeDistance-1, 0), Vector3.up);
+        plane = new Plane(main.transform.position - new Vector3(0, planeDistance-1, 0), -main.transform.forward);
     }
 
     void FixedUpdate() {
