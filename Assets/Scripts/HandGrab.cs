@@ -87,12 +87,9 @@ public class HandGrab : MonoBehaviour
 
     public bool AreAllFingersClosed() {
         bool closed = true;
-
         foreach (bool finger in fingersClosed) {
             closed = closed && finger;
         }
-
-        Debug.Log("closed = " + closed);
         return closed;
     }
 
