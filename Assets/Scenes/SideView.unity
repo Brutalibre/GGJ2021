@@ -443,7 +443,6 @@ GameObject:
   - component: {fileID: 332421984}
   - component: {fileID: 332421983}
   - component: {fileID: 332421988}
-  - component: {fileID: 332421987}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -549,21 +548,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 165.365, y: 0, z: 180}
---- !u!114 &332421987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 332421982}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
 --- !u!114 &332421988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,15 +1296,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1091599829, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.x
-      value: -8.2945917e-10
+      value: -7.203198e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1091599829, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 0.24981658
+      value: 0.24981652
       objectReference: {fileID: 0}
     - target: {fileID: 1091599829, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.z
-      value: -0.000000012158125
+      value: -0.000000012143573
       objectReference: {fileID: 0}
     - target: {fileID: 1273536598, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_YDrive.damping
@@ -1348,15 +1332,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1273536598, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.x
-      value: -0.0000000015425032
+      value: -0.0000000010186342
       objectReference: {fileID: 0}
     - target: {fileID: 1273536598, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 0.24765971
+      value: 0.24765965
       objectReference: {fileID: 0}
     - target: {fileID: 1273536598, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.z
-      value: 0.000000024214387
+      value: 0.000000024185283
       objectReference: {fileID: 0}
     - target: {fileID: 1324275361, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_YDrive.damping
@@ -1388,11 +1372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1324275361, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.x
-      value: -5.820766e-10
+      value: -4.0745363e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1324275361, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 0.261843
+      value: 0.26184297
       objectReference: {fileID: 0}
     - target: {fileID: 1324275361, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorRotation.w
@@ -1452,15 +1436,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699564558, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.x
-      value: -0.00000009524406
+      value: -0.00000009503523
       objectReference: {fileID: 0}
     - target: {fileID: 1699564558, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.y
-      value: 0.00000081968733
+      value: 0.0000007600824
       objectReference: {fileID: 0}
     - target: {fileID: 1699564558, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_ParentAnchorPosition.z
-      value: 0.000000023237616
+      value: 0.000000023246054
       objectReference: {fileID: 0}
     - target: {fileID: 2026614355, guid: 940145244a1c06c4d8d906a761aedf55, type: 3}
       propertyPath: m_Enabled
