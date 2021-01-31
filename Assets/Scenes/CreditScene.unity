@@ -420,8 +420,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "3D\n\n\nProgrammation\n\n\n\n\nMusique\n\nUn mec avec une id\xE9e et des
-    cr\xEApes\n\nMascotte"
+  m_Text: '3D
+
+
+
+    Programming
+
+
+
+
+
+    Music
+
+
+    A guy with an idea and pancakes
+
+
+    Mascot'
 --- !u!222 &453112088
 CanvasRenderer:
   m_ObjectHideFlags: 0
