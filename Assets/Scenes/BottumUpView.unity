@@ -2247,7 +2247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3925241280054726990, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"SecondsToWait","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"NextSceneName","value":{"$content":"Menu","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"SecondsToWait","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"NextSceneName","value":{"$content":"VegetableView","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4631556287273492328, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
       propertyPath: m_Size.x
