@@ -1,38 +1,8 @@
 fileFormatVersion: 2
-guid: 5284c4b392d208f4a92dce178ead3f8b
+guid: a7423a39448674ebc918cb6dc977c2e9
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: 978219045124833374
-    second: Thumbs
-  - first:
-      74: 2607132582594807007
-    second: Middle
-  - first:
-      74: -2329093931597368791
-    second: Pinkie
-  - first:
-      74: -263168754230446833
-    second: Ring
-  - first:
-      74: 6613418502799730267
-    second: Index
-  - first:
-      74: -798877801893180425
-    second: Armature|Index
-  - first:
-      74: -3409620889814530129
-    second: Armature|Middle
-  - first:
-      74: 4877502810508709342
-    second: Armature|Pinkie
-  - first:
-      74: 2827192390886532243
-    second: Armature|Ring
-  - first:
-      74: 7613421796378113113
-    second: Armature|Thumbs
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -61,7 +31,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
