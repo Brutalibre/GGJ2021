@@ -1029,7 +1029,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766238726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 12.93, z: 0}
+  m_LocalPosition: {x: 0, y: 13.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1163,7 +1163,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 33de47b05de81824d8db032daba9f8a9, type: 2}
     - target: {fileID: 4631556287273492334, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"GoToGameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameSceneName","value":{"$content":"GameScene","$type":"System.String"},"$version":"A"},{"name":"GoToCreditsObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CreditsSceneName","value":{"$content":"CreditScene","$type":"System.String"},"$version":"A"},{"name":"ExitGameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"GoToGameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameSceneName","value":{"$content":"SideView","$type":"System.String"},"$version":"A"},{"name":"GoToCreditsObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CreditsSceneName","value":{"$content":"CreditScene","$type":"System.String"},"$version":"A"},{"name":"ExitGameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4631556287273492334, guid: 39341ee15cfc97248949dd54b2d1eec6, type: 3}
       propertyPath: _data._objectReferences.Array.size
