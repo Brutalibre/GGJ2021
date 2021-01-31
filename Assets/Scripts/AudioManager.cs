@@ -11,7 +11,9 @@ public class AudioManager : MonoBehaviour {
     public static AudioManager instance = null;
 
     void Start() {
-        if (instance) Destroy(this.gameObject);
+        if (instance) {
+            Destroy(this.gameObject); return;
+        }
         instance = this;
         DontDestroyOnLoad(this.gameObject);
 

@@ -13,6 +13,8 @@ public class HandGrab : MonoBehaviour
     List<Quaternion> fingersQuat = null;
     List<bool> fingersClosed = null;
 
+    private AudioSource audioSource;
+
     private void Awake() {
         fingersQuat = new List<Quaternion>();
         for (int i = 0; i < fingers.Count; i++) {
@@ -22,6 +24,11 @@ public class HandGrab : MonoBehaviour
         fingersClosed = new List<bool>();
         for (int i = 0; i < fingers.Count/2; i++) {
             fingersClosed.Add(false);
+        }
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource) {
+            audioSource.playOnAwake = false;
         }
     }
 
@@ -96,6 +103,11 @@ public class HandGrab : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Grabbable")
             inRange = other;
+
+        if (audioSource) {
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            audioSource.Play();
+        }
     }
 
     void OnTriggerExit(Collider other) {
