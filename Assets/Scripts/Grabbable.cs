@@ -36,7 +36,7 @@ public class Grabbable : MonoBehaviour
         isGrabbed = false;
         grabbedBy = null;
         rb.useGravity = true;
-        gameObject.layer = 7; // Default layer
+        gameObject.layer = 0; // Default layer
 
         rb.constraints = RigidbodyConstraints.None;
     }
